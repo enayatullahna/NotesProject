@@ -116,10 +116,10 @@
             </objects>
             <point key="canvasLocation" x="618.84057971014499" y="-535.04464285714278"/>
         </scene>
-        <!--View Controller-->
+        <!--Note Detail View Controller-->
         <scene sceneID="v1g-HL-hUO">
             <objects>
-                <viewController id="BHI-0l-agt" sceneMemberID="viewController">
+                <viewController id="BHI-0l-agt" customClass="NoteDetailViewController" customModule="Notes" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QwU-sX-x7t">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -140,6 +140,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="fJR-WH-07v"/>
                     </view>
+                    <connections>
+                        <outlet property="noteTextView" destination="JxZ-iu-K8P" id="bgV-zQ-tFi"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zDq-Gb-pjo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
